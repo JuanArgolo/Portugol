@@ -1,0 +1,61 @@
+programa
+// Algoritmo Calculadora
+{
+    
+    funcao inicio()
+    {
+        inteiro  a = 0
+        real  x, y = 0
+        
+
+
+        escreva(    "Calculadora \n"    )
+        escreva(    "Operações \n"    )
+        escreva(    "1 - Adição +  \n"    )
+        escreva(    "2 - Subtração -  \n")
+        escreva(    "3 - Divisão /  \n"    )
+        escreva(    "4 - Multiplicação *\n "    )
+        escreva(     "Digite o valor equivalente a operação que deseja realizar: ")
+        leia ( a )
+        se ( a == 1 )
+        {
+            escreva( "Digite o valor de x: "    )
+                leia (    x    )
+
+            escreva( "Digite o valor de y: "    )
+                leia (    y    )
+            escreva( "O resultado da soma é: ", x + y)
+        }
+        se ( a == 2 )
+        {
+            escreva( "Digite o valor de x: "    )
+                leia (    x    )
+
+            escreva( "Digite o valor de y: "    )
+                leia (    y    )
+            escreva( "O resultado da subtração é: ", x - y) 
+        }
+        se ( a == 3 )
+        {
+            escreva( "Digite o valor de x: "    )
+                leia (    x    )
+
+            escreva( "Digite o valor de y: "    )
+                leia (    y    )
+            escreva( "O resultado da divisão é: ", x / y)
+        }
+        se ( a == 4 )
+        {
+            escreva( "Digite o valor de x: "    )
+                leia (    x    )
+
+            escreva( "Digite o valor de y: "    )
+                leia (    y    )
+            escreva( "O resultado da multiplicação é: ", x * y)
+        }
+        se ( a >= 5)
+        {
+            escreva("Operação inválida")
+        }
+    }
+}
